@@ -4,7 +4,7 @@ import About from "./pages/About";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
+    <Route path="/" element={}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
        
